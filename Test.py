@@ -13,15 +13,15 @@ import cv2
 import base64
 
 client = AzureOpenAI(
-  azure_endpoint = "https://emtechopenaitrial.openai.azure.com/", 
-  api_key='7f724947173a471280fed3eae4aef524',  
+  azure_endpoint = "[Your key goes here]", 
+  api_key='"[Your key goes here]",  
   api_version="2024-02-15-preview"
 )
 
 def speak(text):
     url = "https://api.openai.com/v1/audio/speech"
     headers = {
-        "Authorization": f'Bearer *OpemnAIKey*',
+        "Authorization": f'Bearer *OpenAIKey*',
     }
 
     data = {
