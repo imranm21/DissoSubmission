@@ -2,7 +2,7 @@ import os
 from google.cloud import vision
 
 # Path to your service account key
-key_path = "/Users/imranmooraj/Downloads/elated-pathway-435403-s2-3be3d2d2dcd9.json"
+key_path = "[Your key goes here]"
 
 # Function to detect faces and emotions using Google Cloud Vision
 def detect_faces(image_path):
