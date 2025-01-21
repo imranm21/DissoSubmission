@@ -4,7 +4,7 @@ from azure.core.credentials import AzureKeyCredential
 import os
 
 # Set up your OpenAI API key
-openai_api_key = 'sk-proj-zZZlxRVqOTQglLFEdmg3T3BlbkFJZRsVExmm1AQweuK7tt2r'  
+openai_api_key = "[Your key goes here]"
 
 # Function to test OpenAI API
 def test_openai_api():
@@ -24,8 +24,8 @@ def test_openai_api():
         print("Error with OpenAI API:", str(e))
 
 # Azure configuration
-azure_endpoint = "https://emtechopenaitrial.openai.azure.com/"
-azure_api_key = '7f724947173a471280fed3eae4aef524'  # Replace with actual Azure OpenAI API key
+azure_endpoint = "[Your key goes here]"
+azure_api_key = "[Your key goes here]" 
 
 # Function to test Azure OpenAI API
 def test_azure_openai():
