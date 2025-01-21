@@ -16,8 +16,8 @@ def monitor_system_usage():
 
 def test_inference_with_monitoring():
     client = AzureOpenAI(
-        azure_endpoint="https://emtechopenaitrial.openai.azure.com/",
-        api_key="163444d32fae45d198a15e9d37e549f6",
+        azure_endpoint="[Your key goes here]",
+        api_key="[Your key goes here]",
         api_version="2024-04-01-preview"
     )
 
